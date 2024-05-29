@@ -1424,7 +1424,7 @@ offers
 }
 #offers #tabs ul li {
   display: inline-block;
-  margin: 0px 15px;
+  margin: 0px 5px;
 }
 #offers #tabs ul li:last-child {
   margin-right: 0px;
