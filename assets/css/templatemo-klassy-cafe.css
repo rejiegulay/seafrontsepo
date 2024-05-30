@@ -1395,12 +1395,15 @@ offers
 ---------------------------------------------
 */
 
+
+
 #offers {
   padding-top: 120px;
+  
 }
 
 #offers .section-heading {
-  margin-bottom: 70px;
+  margin-bottom: 40px;
 }
 
 #offers .section-heading h6 {
@@ -1413,6 +1416,8 @@ offers
 
 #offers .heading-tabs {
   text-align: center;
+ 
+  
 }
 
 #offers .heading-tabs .main-dark-button {
@@ -1421,10 +1426,20 @@ offers
 
 #offers #tabs ul {
   padding: 0;
+  
 }
 #offers #tabs ul li {
   display: inline-block;
-  margin: 0px 5px;
+  margin: 5px 5px;
+  background-color: #e7e7e7;
+  border-radius: 8px;
+  padding: 5px 15px;
+  
+    
+}
+#offers #tabs ul li:hover {
+  background-color: #d3d3d3;
+  
 }
 #offers #tabs ul li:last-child {
   margin-right: 0px;
