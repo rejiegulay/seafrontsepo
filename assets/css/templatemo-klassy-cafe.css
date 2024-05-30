@@ -1528,6 +1528,12 @@ Servvices
 ---------------------------------------------
 */
 
+.border-bottom {
+  border-bottom: 1px solid #dee2e6 !important;
+  margin: 0px 100px 0px 100px;
+}
+
+
 #services {
   padding-top: 120px;
   
