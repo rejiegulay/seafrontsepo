@@ -827,7 +827,7 @@
     <script src="assets/js/lightbox.js"></script> 
     <script src="assets/js/isotope.js"></script> 
     <script src="assets/js/buttonup.js"></script>
-    <script src="assets/js/rightclickdisable.js"></script>
+    
     
     
     <!-- Global Init -->
@@ -862,6 +862,15 @@
       });
     });
     </script>
+   <script type="text/javascript"> 
+function disableRightClick() 
+{ 
+alert("Function Disabled!"); 
+return false; 
+} 
+</script> 
+<body oncontextmenu=" return disableRightClick();">
+... 
 
   </body>
 </html>
