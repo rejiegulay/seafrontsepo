@@ -1397,8 +1397,8 @@ offers
 nav#menu-container {
   position:relative;
   width:100%;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
   
 }
 
@@ -1408,7 +1408,6 @@ nav#menu-container {
   font-size: 24px;
   position: absolute;
   left: 0px;
-  padding: 3px 6px;
   fill:#d3d3d3;
   border-radius: 50px;
   
@@ -1418,8 +1417,7 @@ nav#menu-container {
   cursor: pointer;
   font-size: 24px;
   position: absolute;
-  right: 0px;
-  padding: 3px 6px;
+  right: 0px; 
   fill:#d3d3d3;
   border-radius: 50px;
 }
@@ -1491,7 +1489,7 @@ padding-right: 40px;
 }
 #offers #tabs ul li {
   display: inline-block;
-  margin: 5px 3px;
+  margin: 4px 3px;
   background-color: #e7e7e7;
   border-radius: 8px;
   padding: 5px 15px;
