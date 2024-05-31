@@ -1459,14 +1459,14 @@ nav#menu-container {
 padding-right: 40px;
 }
 
-
 #offers {
   padding-top: 120px;
+  
   
 }
 
 #offers .section-heading {
-  margin-bottom: 60px;
+  margin-bottom: 50px;
 }
 
 #offers .section-heading h6 {
@@ -1479,8 +1479,7 @@ padding-right: 40px;
 
 #offers .heading-tabs {
   text-align: center;
- 
-  
+   
 }
 
 #offers .heading-tabs .main-dark-button {
@@ -1497,6 +1496,10 @@ padding-right: 40px;
   background-color: #e7e7e7;
   border-radius: 8px;
   padding: 5px 15px;
+ 
+  white-space: nowrap;
+  overflow: hidden;
+  box-sizing: border-box;
   
     
 }
