@@ -885,6 +885,79 @@ ul.slick-dots {
 
 /*
 ---------------------------------------------
+venue
+---------------------------------------------
+*/
+
+
+#venue {
+  margin-top: 150px;
+  position: relative;
+  z-index: 9;
+  
+}
+
+#venue .section-heading h2 {
+  padding-right: 120px;
+}
+
+#venue img {
+  width: 100%;
+  overflow: hidden;
+  box-shadow: 1px 1px 4px #727272
+  border: 4px solid #fff
+}
+
+#venue video {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-left: 0px;
+}
+
+.section-heading2 h6 {
+  position: relative;
+  font-size: 15px;
+  color: #0752a5;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  
+}
+
+#gallery{
+margin-top: 40px;
+background-color: #f1f1f1; 
+padding-top: 25px;
+padding-bottom: 25px;
+width: 100%;
+}
+
+#venue .left-text-content p {
+  margin-bottom: 25px;
+}
+
+#venue .right-content {
+  margin-left: 0px;
+}
+
+#venue .right-content .thumb {
+  position: relative;
+
+}
+
+#venue .right-content .thumb a {
+  position: absolute;
+  
+}
+
+#venue .right-content .thumb a:hover {
+  opacity: .9;
+}
+
+
+/*
+---------------------------------------------
 about
 ---------------------------------------------
 */
