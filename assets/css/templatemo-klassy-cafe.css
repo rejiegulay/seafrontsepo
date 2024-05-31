@@ -1395,9 +1395,10 @@ offers
 ---------------------------------------------
 */
 nav#menu-container {
-  
   position:relative;
   width:100%;
+  padding-left: 50px;
+  padding-right: 50px;
   
 }
 
@@ -1408,8 +1409,7 @@ nav#menu-container {
   position: absolute;
   left: 0px;
   padding: 3px 6px;
-  background: #d3d3d3;
-  fill:#ffffff;
+  fill:#d3d3d3;
   border-radius: 50px;
   
 }
@@ -1420,8 +1420,7 @@ nav#menu-container {
   position: absolute;
   right: 0px;
   padding: 3px 6px;
-  background: #d3d3d3;
-  fill:#ffffff;
+  fill:#d3d3d3;
   border-radius: 50px;
 }
 
@@ -1431,7 +1430,7 @@ nav#menu-container {
   white-space: nowrap;
   margin: 0 auto;
   overflow: hidden;
-  padding: 0px 54px;
+  padding: 0px 0px;
   box-sizing: border-box;
 }
 .menu
