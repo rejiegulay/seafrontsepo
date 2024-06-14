@@ -22,6 +22,7 @@ font & reset css
 --------------------------------------------- 
 */
 @import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+@import url("https://fonts.googleapis.com/css?family=Palatino:100,200,300,400,500,600,700,800,900");
 /* 
 ---------------------------------------------
 reset
@@ -201,11 +202,13 @@ body {
 }
 
 .section-heading h2 {
+  font-family: 'Palatino', sans-serif;
+  font-style: italic;
   line-height: 40px;
   margin-top: 20px;
   margin-bottom: 25px; 
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 700;
   color: #2a2a2a;
 }
 
@@ -231,7 +234,7 @@ header
 
 .background-header .logo,
 .background-header .main-nav .nav li a {
-  color: #f7f7f7!important;
+  color:  #1e1e1e!important;
 
 
 }
@@ -290,7 +293,7 @@ header
   margin-top: 30px;
   margin-right: 0px;
   border-radius: 8px;
-  background-color: #0752a5; transparent
+  background-color: #0752a5 transparent
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -335,18 +338,18 @@ header
 }
 
 .header-area .main-nav .nav li a {
-  color: #f7f7f7;
+  color:  #1e1e1e;
 
 }
 
 .header-area .main-nav .nav li:hover a,
 .header-area .main-nav .nav li a.active {
-  color: #37b7ff!important;
+  color: #0752a5!important;
 }
 
 .background-header .main-nav .nav li:hover a,
 .background-header .main-nav .nav li a.active {
-  color: #37b7ff!important;
+  color: #0752a5!important;
   opacity: 1;
 }
 
@@ -359,14 +362,14 @@ header
   font-family: FontAwesome;
   content: "\f107";
   font-size: 12px;
-  color: #f7f7f7;
+  color:  #1e1e1e;
   position: absolute;
   right: 18px;
   top: 12px;
 }
 
 .background-header .main-nav .nav li.submenu:after {
-  color: #f7f7f7;
+  color:  #1e1e1e;
 }
 
 .header-area .main-nav .nav li.submenu ul {
@@ -673,6 +676,7 @@ header
 }
 
 
+
 /* 
 ---------------------------------------------
 banner
@@ -680,55 +684,14 @@ banner
 */
 
 #top {
-  padding-top: 100px;
+  padding-top: 100px; 
 }
 
-#top .col-lg-4,
-#top .col-lg-8 {
+#top .col-lg-12 {
   padding: 0px;
 }
 
-#top .left-content {
-  background-image: url(../images/top-left-bg.jpg);
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  width: 100%;
-  height: 100%;
-}
 
-#top .left-content .inner-content {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-}
-
-#top .left-content h4 {
-  font-family: 'Dancing Script', cursive;
-  color: #fff;
-  font-size: 54px;
-  font-weight: 700;
-}
-
-#top .left-content h6 {
-  font-size: 15px;
-  text-transform: none;
-  font-weight: 600;
-  color: #fff;
-  letter-spacing: 3px;
-  margin-top: 4px;
-}
-
-#top .left-content .main-white-button  {
-  margin-top: 25px;
-  margin-bottom: 10px;
-}
-
-#top .left-content .main-white-button a {
-  display: inline-block;
-}
 
 /* ==== Main CSS === */
 .img-fill{
@@ -774,13 +737,11 @@ banner
   padding: 0;
 }
 
-
-
-
 /* ==== Slider Style === */
 .Modern-Slider .item .img-fill{
+  width: 100%;
   height:100%;
-  max-height: 700px;
+  max-height: 530px;
   background:#ffffff;
 }
 
@@ -859,7 +820,8 @@ ul.slick-dots {
   position: relative;
 }
 
-.Modern-Slider {background:#000;}
+.Modern-Slider {background:#ffffff;}
+
 
 /* ==== Slick Slider Css Ruls === */
 .slick-slider{position:relative;display:block;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-touch-callout:none;-khtml-user-select:none;-ms-touch-action:pan-y;touch-action:pan-y;-webkit-tap-highlight-color:transparent}
@@ -869,7 +831,7 @@ ul.slick-dots {
 .slick-track{position:relative;top:0;left:0;display:block}
 .slick-track:before,.slick-track:after{display:table;content:''}.slick-track:after{clear:both}
 .slick-loading .slick-track{visibility:hidden}
-.slick-slide{display:none;float:left /* If RTL Make This Right */ ;height:100%;min-height:1px}
+.slick-slide{display:none;float:left /* If RTL Make This Right */ ;height:100%;min-height:1px;}
 .slick-slide.dragging img{pointer-events:none}
 .slick-initialized .slick-slide{display:block}
 .slick-loading .slick-slide{visibility:hidden}
@@ -955,11 +917,12 @@ about
 ---------------------------------------------
 */
 
+
 #about {
-  margin-top: 20px;
-  padding: 100px 0px 0px 0px;
+  margin-top: 120px;
   position: relative;
   z-index: 9;
+  
 }
 
 #about .section-heading h2 {
@@ -977,8 +940,6 @@ about
   width: 100%;
   height: auto;
   overflow: hidden;
-  
-
 }
 
 #about .left-text-content p {
@@ -1012,7 +973,7 @@ menu
 
 #menu {
   margin-top: 90px;
-  background-color:#f1f1f1;
+  background-color: #f1f1f1;
   padding: 120px 0px;
 }
 
@@ -1460,6 +1421,8 @@ reservation
 offers
 ---------------------------------------------
 */
+
+
 nav#menu-container {
   position:relative;
   width:100%;
@@ -1496,6 +1459,7 @@ nav#menu-container {
   overflow: hidden;
   padding: 0px 0px;
   box-sizing: border-box;
+  cursor: grab;
 }
 .menu
 {  
@@ -1504,6 +1468,7 @@ nav#menu-container {
   list-style-type: none;
   display:block;
   text-align: center;
+ 
 }
 .menu-item
 {
@@ -1516,6 +1481,7 @@ nav#menu-container {
   text-decoration:none;
   text-align:center;
   white-space:no-wrap;
+  
 }
 
 .last-item{
@@ -1658,12 +1624,10 @@ padding-right: 40px;
 Servvices
 ---------------------------------------------
 */
-
 .border-bottom {
   border-bottom: 1px solid #dee2e6 !important;
   margin: 0px 50px 0px 50px;
 }
-
 
 #services {
   padding-top: 120px;
@@ -1709,7 +1673,7 @@ Servvices
 }
 
 #services #servicestabs ul li a img {
-  display: block;
+  display: inline-block;
   margin: 0 auto 15px auto;
 }
 #services #servicestabs ul .ui-tabs-active a {
@@ -1764,12 +1728,8 @@ footer
 */
 
 footer {
-  margin-top:;
+  margin-top:60px;
   padding: 50px 0px;
-  background-image: url(../images/footer-bg.jpg)
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
   background-color: #0752a5;
 }
 
@@ -2020,6 +1980,6 @@ body {
   .column {
     -ms-flex: 100%;
     flex: 100%;
-    max-width: 100%;
+    max-width: 100%;   
   }
 }
