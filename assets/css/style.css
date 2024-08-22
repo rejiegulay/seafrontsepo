@@ -755,7 +755,7 @@ banner
   position:absolute;
   top:50%;
   transform: translateY(-25px);
-  right:30px;
+  right:20px;
   width: 50px;
   height: 50px;
   background-color: #0752a5;
@@ -789,7 +789,7 @@ banner
   position:absolute;
   top:50%;
   transform: translateY(-25px);
-  left:30px;
+  left:20px;
   width: 50px;
   height: 50px;
   background-color: #0752a5;
