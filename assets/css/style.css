@@ -760,10 +760,10 @@ banner
   height: 30px;
   background-color: #0752a5;
   border:0 none;
-  
-  border-radius: 50px;
+  line-height: 44px;
+  border-radius: 50%;
   text-align:center;
-  font-size: 36px;
+  font-size: 26px;
   font-family: 'FontAwesome';
   color:#FFF;
   z-index:5;
@@ -785,14 +785,14 @@ banner
   top:50%;
   transform: translateY(-25px);
   left:30px;
-  width: 50px;
-  height: 50px;
+  width: 30px;
+  height: 30px;
   background-color: #0752a5;
   border:0 none;
   line-height: 44px;
   border-radius: 50%;
   text-align:center;
-  font-size: 36px;
+  font-size: 26px;
   font-family: 'FontAwesome';
   color:#FFF;
   z-index:5;
