@@ -756,12 +756,12 @@ banner
   top:50%;
   transform: translateY(-25px);
   right:30px;
-  width: 50%;
-  height: 50%;
+  width: 30px;
+  height: 30px;
   background-color: #0752a5;
   border:0 none;
-  line-height: 44px;
-  border-radius: 50%;
+  
+  border-radius: 50px;
   text-align:center;
   font-size: 36px;
   font-family: 'FontAwesome';
