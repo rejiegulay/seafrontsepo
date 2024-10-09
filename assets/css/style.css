@@ -126,7 +126,7 @@ global styles
   display: none;
   background-color: #0ba0da;
   border-color:#fff ;
-  border-radius: 20px;
+  border-radius: 5px;
 }
 
 #btn-back-to-top:hover {
